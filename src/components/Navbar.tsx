@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
               {link.name}
             </Link>
           ))}
-          <Button asChild className="bg-company-600 hover:bg-company-700">
+          <Button asChild className="bg-company-700 hover:bg-company-800 text-white">
             <Link to="/careers">View Open Positions</Link>
           </Button>
         </nav>
@@ -78,7 +78,7 @@ const Navbar: React.FC = () => {
                 {link.name}
               </Link>
             ))}
-            <Button asChild className="w-full mt-4 bg-company-600 hover:bg-company-700">
+            <Button asChild className="w-full mt-4 bg-company-700 hover:bg-company-800 text-white">
               <Link to="/careers" onClick={() => setIsMenuOpen(false)}>
                 View Open Positions
               </Link>
